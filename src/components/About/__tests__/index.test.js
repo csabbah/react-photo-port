@@ -9,10 +9,6 @@ import '@testing-library/jest-dom/extend-expect';
 // Import the component we want to test
 import About from '../About.js';
 
-// Call cleanup  afterEach global function from Jest
-// This ensures after each test, no memory is left over
-afterEach(cleanup);
-
 // Declare the component we are testing
 describe('About component', () => {
   // First test ensures the component is rendering
@@ -27,3 +23,7 @@ describe('About component', () => {
     expect(asFragment()).toMatchSnapshot();
   });
 });
+
+// Call cleanup  afterEach global function from Jest
+// This ensures after each test, no memory is left over
+afterEach(cleanup);
