@@ -11,6 +11,11 @@ const About = ({ string }) => {
         style={{ width: '100%' }}
         alt="cover"
       />
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate
+        repudiandae atque natus commodi eius iste repellat eaque eum molestiae
+        at.
+      </p>
     </section>
   );
 };
