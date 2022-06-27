@@ -1,12 +1,11 @@
 import React from 'react';
-import coverImage from '../../assets/cover/cover-image.jpg';
 
 const About = ({ string }) => {
   return (
     <section className="my-5">
       <h1 id="about">{string}</h1>
       <img
-        src={coverImage}
+        src={`./images/cover/cover-image.jpg`}
         className="my-2"
         style={{ width: '100%' }}
         alt="cover"

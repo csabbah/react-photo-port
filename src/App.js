@@ -29,7 +29,7 @@ function App() {
       ></Nav>
       <main>
         <div>
-          <Gallery></Gallery>
+          <Gallery currentCategory={currentCategory}></Gallery>
           <About string="Who am I?"></About>
         </div>
       </main>
