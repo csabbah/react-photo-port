@@ -75,8 +75,13 @@ function ContactForm() {
             onChange={handleChange}
             rows="5"
           />
+          {errorMessage && (
+            <div>
+              <p className="error-text">{errorMessage}</p>
+            </div>
+          )}
+          <button type="submit">Submit</button>
         </div>
-        <button type="submit">Submit</button>
       </form>
     </section>
   );
