@@ -1,8 +1,8 @@
 {
   "name": "photo-port",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://csabbah.github.io/photo-port",
+  "private": false,
+  "homepage": "https://csabbah.github.io/react-photo-port",
   "dependencies": {
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
